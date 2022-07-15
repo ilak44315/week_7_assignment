@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<HTML><!--creates the structure not make it look pretty-->
+    <head>
+        <title></title>
+        <script src="week7video.js"></script><!--linking a js file to HTML-->
+    </head>
+    <body class="container">
+
+        <a href="https://google.com">Take me to Google!</a> <br><!--br is like a enter button-->
+        <a href="page2.html">Page 2 </a> <br>
+        <a href="pages/page3.html">Page 3</a> <br>
+
+
+        <img src="Cat.jpg"/> self closing <br>
+        <img src="https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/"/><br>
+
+        <ol> <!--ordered list--> 
+            <li>Sally</li>
+            <li>Tommy</li>
+            <li>Sam</li>
+        </ol>
+
+        <ul><!--unordered list -->
+            <li>Apple</li>
+            <li>Bread</li>
+            <li>Eggs</li>
+        </ul>
+
+        <table>
+            <tr><!--tr is table row-->
+                <th>Product</th><!--th is table header-->
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Apple</td><!--td is table data, must go in the same order and as the headers, each row need its own tr-->
+                <td> .35</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Bread</td>
+                <td>2.35</td>
+                <td>12</td>
+            </tr>
+        </table>
+
+        <!--Block element takes up the entire screen, div, can be targeted in css-->
+            <div>
+                <h1>Div 1</h1>
+                <p>Div 1 Paragraph</p>
+            </div>
+            <div>
+                <h1>Div 2</h1>
+                <p> Div 2 Paragrph</p>
+            </div>
+
+        <!--Inline elements can fit on the same line, span, can be targeted in css-->
+            <p> This is some text, <span>here is text inside a span</span>, and here is come more text.</p>
+
+        <!--forms-->
+            <form>
+                <input type="text" name="firstName" placeholder="First Name"><br>
+                <input type="text" name="lastName" placeholder="Last Name"><br><br>
+                Ice Cream Preference: <br>
+                <input type="radio" name="'ice-cream" value="Chocolate">Chocolate<br>
+                <input type="radio" name="'ice-cream" value="Vanilla">Vanilla<br>
+                <input type="radio" name="'ice-cream" value="Swirl">Swirl<br>
+                <input type="submit" value="Submit">
+            </form>
+            <button>Click Me!</button>
+    </body>
+</HTML>
